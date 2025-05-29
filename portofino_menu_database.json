@@ -1,0 +1,225 @@
+{
+  "restaurant": {
+    "name": "Porto Fino Restaurant",
+    "type": "Restaurante Italiano de Alta Cocina",
+    "email_reservations": "gbergamin1982@gmail.com"
+  },
+  "menu": {
+    "pasta_risotto": [
+      {"name": "Risotto ai Gamberoni", "price": 17900, "description": "Risotto de crustáceos con tartar de camarones y caviar de salmón", "category": "risotto", "ingredients": ["arroz", "camarones", "caviar salmón"], "wine_pairing": ["sauvignon_blanc", "chardonnay"]},
+      {"name": "Risotto Filetto e Funghi", "price": 17900, "description": "Risotto de setas con filete de res", "category": "risotto", "ingredients": ["arroz", "setas", "filete"], "wine_pairing": ["cabernet_sauvignon", "pinot_noir"]},
+      {"name": "Rigatoni Tricolore", "price": 17100, "description": "Pasta con pesto de pistachos, tomates asados y straciatella", "category": "pasta", "ingredients": ["pasta", "pistachos", "tomates", "straciatella"], "wine_pairing": ["pinot_noir", "chianti"]},
+      {"name": "Spaghetti Alla Carbonara", "price": 15800, "description": "Carbonara auténtica con Guanciale y Pecorino Romano", "category": "pasta", "ingredients": ["spaghetti", "guanciale", "pecorino"], "wine_pairing": ["pinot_noir", "lambrusco"]},
+      {"name": "Fettuccine Portofino", "price": 15200, "description": "Con camarones, palta y pesto de albahaca", "category": "pasta", "signature": true, "ingredients": ["fettuccine", "camarones", "palta", "albahaca"], "wine_pairing": ["sauvignon_blanc", "prosecco"]},
+      {"name": "Spaghetti Nero ai Frutti di Mare", "price": 16900, "description": "Pasta negra con mariscos", "category": "pasta", "ingredients": ["pasta negra", "mariscos"], "wine_pairing": ["sauvignon_blanc", "albariño"]},
+      {"name": "Agnolotti dal Monte", "price": 13900, "description": "Pasta rellena de plateada y polenta", "category": "pasta", "ingredients": ["pasta fresca", "plateada", "polenta"], "wine_pairing": ["cabernet_sauvignon", "carmenere"]},
+      {"name": "Sorrentini di Zucca", "price": 14500, "description": "Pasta rellena de zapallo camote", "category": "pasta", "ingredients": ["pasta fresca", "zapallo", "ricotta"], "wine_pairing": ["chardonnay", "viognier"]},
+      {"name": "Gnocchi al ragú", "price": 11900, "description": "Gnocchi con bolognesa tradicional", "category": "pasta", "ingredients": ["gnocchi", "ragú"], "wine_pairing": ["chianti", "sangiovese"]},
+      {"name": "Spaghetti con pesto alla Genovese", "price": 10900, "description": "Auténtico pesto genovés", "category": "pasta", "ingredients": ["spaghetti", "albahaca", "piñones"], "wine_pairing": ["vermentino", "pinot_grigio"]}
+    ],
+    "pesce_carne": [
+      {"name": "Wagyu e Tartufo", "price": 24500, "description": "Plateada de Wagyu braseada con gratín de papa trufado", "category": "carne", "premium": true, "ingredients": ["wagyu", "trufa", "papa"], "wine_pairing": ["cabernet_sauvignon_premium", "carmenere_premium"]},
+      {"name": "Agnello Brasato", "price": 26900, "description": "Garrón de cordero braseado en vino tinto especiado, polenta cremosa y alcachofa confitada", "category": "carne", "premium": true, "ingredients": ["cordero", "polenta", "alcachofa"], "wine_pairing": ["syrah", "malbec", "carmenere"]},
+      {"name": "Filetto in Glassa di Modena", "price": 21900, "description": "Filete de res con costra de provolone, espinaca al parmesano", "category": "carne", "ingredients": ["filete", "provolone", "balsámico"], "wine_pairing": ["cabernet_sauvignon", "malbec"]},
+      {"name": "Ossobuco alla Milanese", "price": 20900, "description": "Ossobuco de Angus sous vide con risotto al azafrán", "category": "carne", "traditional": true, "ingredients": ["ossobuco", "azafrán", "risotto"], "wine_pairing": ["barolo", "brunello"]},
+      {"name": "Polpo Mediterraneo", "price": 23500, "description": "Pulpo grillado con frégula a la mediterránea y selección de mariscos", "category": "pescado", "ingredients": ["pulpo", "frégula", "mariscos"], "wine_pairing": ["vermentino", "sauvignon_blanc"]},
+      {"name": "Pesce del Giorno Tutto Mare", "price": 19900, "description": "Pescado del día a la plancha, cremoso de garbanzos y mariscos emulsionados", "category": "pescado", "daily": true, "ingredients": ["pescado_día", "garbanzos", "mariscos"], "wine_pairing": ["chardonnay", "albariño"]},
+      {"name": "Albacora e Cozze", "price": 17900, "description": "Albacora asada con costra de pistachos y estofado de pallares", "category": "pescado", "ingredients": ["albacora", "pistachos", "pallares"], "wine_pairing": ["sauvignon_blanc", "vermentino"]},
+      {"name": "Salmone e Gnocchi", "price": 19900, "description": "Salmón a la plancha con gnocchi salteados y yogurt de albahaca", "category": "pescado", "ingredients": ["salmón", "gnocchi", "albahaca"], "wine_pairing": ["chardonnay", "pinot_noir"]},
+      {"name": "Tonno e Frutto della Passione", "price": 16900, "description": "Atún en su punto con costra de pistachos y salsa de maracuyá", "category": "pescado", "ingredients": ["atún", "pistachos", "maracuyá"], "wine_pairing": ["sauvignon_blanc", "riesling"]}
+    ],
+    "antipasti": [
+      {"name": "Cipini Tutto Mare", "price": 26900, "description": "Degustación de antipasti marinos: pescado marinado, tártaro, pulpo al limón", "category": "degustación", "premium": true, "sharing": true, "ingredients": ["pescado", "mariscos", "pulpo"], "wine_pairing": ["prosecco", "champagne"]},
+      {"name": "Assaggio di Salumi", "price": 20900, "description": "Selección de charcutería italiana con olivas y chutney", "category": "charcutería", "sharing": true, "ingredients": ["salumi", "olivas", "chutney"], "wine_pairing": ["chianti", "barbera"]},
+      {"name": "Delizie di Mare", "price": 25900, "description": "Locos frescos, ensaladilla de quinoa negra y bearnesa de locos", "category": "mariscos", "premium": true, "ingredients": ["locos", "quinoa", "bearnesa"], "wine_pairing": ["sauvignon_blanc", "chablis"]},
+      {"name": "Burrata alla Emilia-Romagna", "price": 17500, "description": "Burrata fresca, uvas asadas, cítricos y aceto balsámico", "category": "quesos", "ingredients": ["burrata", "uvas", "balsámico"], "wine_pairing": ["prosecco", "lambrusco"]},
+      {"name": "Burrata ai Pomodori", "price": 17700, "description": "Burrata fresca con ensaladilla de tomates asados y pesto rosso", "category": "quesos", "ingredients": ["burrata", "tomates", "pesto"], "wine_pairing": ["chianti", "sangiovese"]},
+      {"name": "Tartare di Filetto di Manzo", "price": 11200, "description": "Tártaro de res con encurtidos, papa hilo crocante y tostadas", "category": "carnes", "ingredients": ["filete", "alcaparras", "papa"], "wine_pairing": ["barolo", "cabernet"]},
+      {"name": "Crudo di Salmone", "price": 10900, "description": "Salmón ligeramente curado con eneldo y caviar de salmón", "category": "pescado", "ingredients": ["salmón", "eneldo", "caviar"], "wine_pairing": ["chablis", "sauvignon_blanc"]}
+    ],
+    "dolci": [
+      {"name": "Varietà di Dolci", "price": 16900, "description": "Degustación de 5 postres: Creme Caramel, Torrone, Tiramisù, Nocciolato, Gelato", "category": "degustación", "sharing": true, "wine_pairing": ["moscato", "late_harvest"]},
+      {"name": "Tiramisù", "price": 6900, "description": "Clásico italiano a base de mascarpone, espresso y gelato de latte", "category": "tradicional", "signature": true, "ingredients": ["mascarpone", "espresso", "savoiardi"], "wine_pairing": ["moscato", "amaretto"]},
+      {"name": "Torrone di Pistacchio", "price": 6900, "description": "Semifrío de pistachos con frutos secos y salsa de arándanos", "category": "semifrío", "ingredients": ["pistachos", "arándanos"], "wine_pairing": ["late_harvest", "moscato"]},
+      {"name": "Nocciolato", "price": 5900, "description": "Mousse de chocolate bitter 71% con praline de avellanas", "category": "chocolate", "ingredients": ["chocolate", "avellanas"], "wine_pairing": ["porto", "moscato"]},
+      {"name": "Gelato del Giorno", "price": 7900, "description": "Helado artesanal del día hecho en casa", "category": "gelato", "daily": true, "wine_pairing": ["moscato", "prosecco"]},
+      {"name": "Affogato", "price": 5100, "description": "Helado de vainilla hecho en casa con café espresso", "category": "café", "ingredients": ["gelato", "espresso"], "wine_pairing": ["amaretto", "grappa"]}
+    ]
+  },
+  "beverages": {
+    "promotions": [
+      {"name": "DONNALUNA", "price": 15000, "description": "Cóctel de vino premium en variedades Rossato, Tinto Rosso y Bianco", "type": "cocktail", "premium": true},
+      {"name": "Penicillin", "price": 6300, "description": "Whisky escocés, jugo de limón, almíbar de miel y jengibre", "type": "cocktail", "ingredients": ["whisky", "limón", "miel", "jengibre"]},
+      {"name": "Mamma Mia", "price": 6100, "description": "Gin, licor de sauco, jugo de pomelo, tónica afrutada", "type": "cocktail", "ingredients": ["gin", "sauco", "pomelo"]},
+      {"name": "Royale Tonic", "price": 10900, "description": "Tanqueray Royale, Chambord y tónica premium", "type": "cocktail", "premium": true}
+    ],
+    "signature_cocktails": [
+      {"name": "Tramonto", "price": 8500, "description": "Johnnie Blonde, limón, albumina, vino tinto", "type": "signature", "ingredients": ["whisky", "limón", "vino_tinto"]},
+      {"name": "Porto Smash", "price": 6900, "description": "Araucano, jugo de piña, lima, menta", "type": "signature", "signature": true, "ingredients": ["pisco", "piña", "lima", "menta"]},
+      {"name": "Lorenza", "price": 8900, "description": "Johnnie Blonde, Campari, limón, pomelo", "type": "signature", "ingredients": ["whisky", "campari", "cítricos"]},
+      {"name": "Amore Mio", "price": 9900, "description": "Gin Tanqueray London, Aperol, pomelo, tónica premium", "type": "signature", "ingredients": ["gin", "aperol", "pomelo"]},
+      {"name": "Fior d'Arancio", "price": 7900, "description": "Tanqueray Sevilla, licor de naranja, jugo de chirimoya", "type": "signature", "ingredients": ["gin", "naranja", "chirimoya"]}
+    ],
+    "classic_cocktails": [
+      {"name": "Manhattan", "price": 7900, "description": "Whiskey Bourbon, Vermouth dulce, angostura", "type": "classic", "base": "whiskey"},
+      {"name": "Old Fashioned", "price": 8500, "description": "Whiskey Bourbon, azúcar rubia, angostura", "type": "classic", "base": "whiskey"},
+      {"name": "Negroni", "price": 6900, "description": "Gin, Campari, Vermouth", "type": "classic", "base": "gin"},
+      {"name": "Dry Martini", "price": 5500, "description": "Gin, Vermouth seco", "type": "classic", "base": "gin"},
+      {"name": "Margarita", "price": 6300, "description": "Tequila, licor de naranja, limón", "type": "classic", "base": "tequila"},
+      {"name": "Mojito Tradicional", "price": 6200, "description": "Ron blanco, menta, lima, azúcar", "type": "classic", "base": "ron"},
+      {"name": "Caipirinha", "price": 6500, "description": "Cachaza, limón, azúcar", "type": "classic", "base": "cachaza"},
+      {"name": "Bloody Mary", "price": 7100, "description": "Vodka, jugo de tomate, especias", "type": "classic", "base": "vodka"},
+      {"name": "Vaina", "price": 5300, "description": "Vino dulce añejo, Coñac, licor de cacao, yema", "type": "classic", "regional": "chilean"}
+    ],
+    "wines": {
+      "champagne_sparkling": [
+        {"name": "Dom Perignon", "price": 450000, "type": "champagne", "origin": "Francia", "premium": true},
+        {"name": "Moet & Chandon", "price": 130000, "type": "champagne", "origin": "Francia", "premium": true},
+        {"name": "Chandon Brut", "price": 23000, "type": "sparkling", "origin": "Argentina"},
+        {"name": "Prosecco Belstar", "price": 29900, "type": "prosecco", "origin": "Italia"},
+        {"name": "Miguel Torres Estelado Brut Rosé", "price": 16000, "type": "sparkling", "origin": "Chile", "color": "rosé"},
+        {"name": "Viñamar Brut", "price": 13000, "type": "sparkling", "origin": "Chile"}
+      ],
+      "white_wines": {
+        "sauvignon_blanc": [
+          {"name": "Floresta", "price": 24900, "origin": "Chile", "region": "various"},
+          {"name": "Montes Outer Limits", "price": 25000, "origin": "Chile", "premium": true},
+          {"name": "Casa Silva Cool Coast", "price": 19500, "origin": "Chile", "region": "coastal"},
+          {"name": "Santa Digna", "price": 17000, "origin": "Chile", "value": true}
+        ],
+        "chardonnay": [
+          {"name": "Miguel Torres Cordillera", "price": 25000, "origin": "Chile", "premium": true},
+          {"name": "De Martino Legado", "price": 23000, "origin": "Chile"},
+          {"name": "Montes Alpha", "price": 22000, "origin": "Chile", "premium": true},
+          {"name": "Santa Digna", "price": 17000, "origin": "Chile", "value": true}
+        ]
+      },
+      "red_wines": {
+        "cabernet_sauvignon": [
+          {"name": "Degaz Granito Estate", "price": 35000, "origin": "Chile", "premium": true},
+          {"name": "S38 Casa Silva", "price": 29000, "origin": "Chile", "premium": true},
+          {"name": "Miguel Torres Cordillera", "price": 24000, "origin": "Chile"},
+          {"name": "Montes Alpha", "price": 22000, "origin": "Chile", "premium": true},
+          {"name": "Santa Digna", "price": 17000, "origin": "Chile", "value": true}
+        ],
+        "carmenere": [
+          {"name": "Tierras Moradas", "price": 59000, "origin": "Chile", "ultra_premium": true},
+          {"name": "S7 Casa Silva", "price": 29000, "origin": "Chile", "premium": true},
+          {"name": "Presumido", "price": 25000, "origin": "Chile"},
+          {"name": "Perez Cruz Limited Edition", "price": 24000, "origin": "Chile"},
+          {"name": "Santa Digna", "price": 17000, "origin": "Chile", "value": true}
+        ],
+        "blends": [
+          {"name": "In Situ QV", "price": 45000, "origin": "Chile", "ultra_premium": true},
+          {"name": "Atrevido", "price": 32000, "origin": "Chile", "premium": true},
+          {"name": "Carmen Delanz Apalta", "price": 29500, "origin": "Chile", "premium": true},
+          {"name": "Anka", "price": 25000, "origin": "Chile"}
+        ],
+        "pinot_noir": [
+          {"name": "Casas del Bosque Pequeñas Producciones", "price": 29500, "origin": "Chile", "premium": true},
+          {"name": "Montes Outer Limits", "price": 26000, "origin": "Chile", "premium": true},
+          {"name": "TH Leyda", "price": 22900, "origin": "Chile"}
+        ]
+      },
+      "by_glass": [
+        {"wine": "Sauvignon Blanc", "price": 6900, "type": "copa"},
+        {"wine": "Carmenere Gran Reserva", "price": 6900, "type": "copa"},
+        {"wine": "Cabernet Sauvignon Gran Reserva", "price": 6900, "type": "copa"}
+      ]
+    },
+    "spirits": {
+      "whisky": [
+        {"name": "Johnnie Walker Blue Label", "price": 39000, "type": "blended", "premium": true},
+        {"name": "The Macallan 12 años", "price": 18500, "type": "single_malt", "premium": true},
+        {"name": "Johnnie Walker Green Label", "price": 14900, "type": "blended"},
+        {"name": "Johnnie Walker Gold Label", "price": 12900, "type": "blended"},
+        {"name": "Buchanans 12 años", "price": 12900, "type": "blended"},
+        {"name": "Chivas Regal 18 años", "price": 12500, "type": "blended"},
+        {"name": "Glenmorangie 10 años", "price": 11500, "type": "single_malt"},
+        {"name": "Johnnie Walker Black Label", "price": 8500, "type": "blended", "popular": true}
+      ],
+      "gin": [
+        {"name": "Citadelle", "price": 14000, "includes": "tónica premium", "premium": true},
+        {"name": "Whitley Neill", "price": 14000, "includes": "tónica premium", "premium": true},
+        {"name": "Gin Botanist", "price": 12000, "type": "craft", "premium": true},
+        {"name": "Tanqueray Ten", "price": 12000, "type": "premium"},
+        {"name": "Malfy Originale", "price": 8200, "origin": "Italia"},
+        {"name": "Tanqueray Royale", "price": 7900, "type": "flavored"},
+        {"name": "Tanqueray London Dry", "price": 6400, "type": "classic", "popular": true}
+      ],
+      "pisco": [
+        {"name": "Kappa X.O. 40º", "price": 18000, "premium": true, "aged": true},
+        {"name": "Mistral Gran Nobel 40º", "price": 7500, "type": "premium"},
+        {"name": "Kappa", "price": 7500, "type": "premium"},
+        {"name": "Waqar", "price": 7400, "type": "craft"},
+        {"name": "Lapostolle X.O. 40º", "price": 6900, "aged": true},
+        {"name": "Espíritu de Los Andes", "price": 5500, "popular": true}
+      ],
+      "ron": [
+        {"name": "Flor de Caña 25 años", "price": 24900, "aged": "25_years", "premium": true},
+        {"name": "Zacapa Solera 23 años", "price": 10200, "aged": "23_years", "origin": "Guatemala", "premium": true},
+        {"name": "Zacapa Ámbar 12 años", "price": 9900, "aged": "12_years", "origin": "Guatemala"},
+        {"name": "Flor de Caña 18 años", "price": 7500, "aged": "18_years", "origin": "Nicaragua"},
+        {"name": "Havana Club 7 años", "price": 6900, "aged": "7_years", "origin": "Cuba"}
+      ],
+      "tequila": [
+        {"name": "Don Julio Reposado", "price": 14900, "type": "reposado", "premium": true},
+        {"name": "Don Julio Blanco", "price": 10900, "type": "blanco", "premium": true},
+        {"name": "Olmeca Silver", "price": 7700, "type": "blanco"},
+        {"name": "Tequila Avion", "price": 6700, "type": "blanco"}
+      ]
+    },
+    "beers": [
+      {"name": "Kunstmann Gran Torobayo", "price": 5100, "size": "500cc", "type": "artisanal", "premium": true},
+      {"name": "Kunstmann Lager", "price": 3800, "type": "artisanal"},
+      {"name": "Kunstmann Torobayo", "price": 3800, "type": "artisanal"},
+      {"name": "Kunstmann Bock", "price": 3800, "type": "artisanal"},
+      {"name": "Kunstmann Miel", "price": 3800, "type": "artisanal"},
+      {"name": "Kunstmann Sin Alcohol", "price": 3000, "alcohol_free": true},
+      {"name": "Heineken", "price": 3500, "type": "international"},
+      {"name": "Corona", "price": 3500, "type": "international"},
+      {"name": "Austral Lager", "price": 3700, "type": "national"},
+      {"name": "Austral Calafate", "price": 3700, "type": "national", "flavored": true}
+    ],
+    "coffee_tea": [
+      {"name": "Amore Perfetto", "price": 3900, "description": "Cappuccino con Amaretto", "type": "specialty"},
+      {"name": "Dolce Espresso", "price": 3200, "description": "Espresso con leche condensada", "type": "specialty"},
+      {"name": "Cappuccino", "price": 3100, "type": "coffee"},
+      {"name": "Cortado", "price": 3100, "type": "coffee"},
+      {"name": "Latte", "price": 3100, "type": "coffee"},
+      {"name": "Café Americano", "price": 2900, "type": "coffee"},
+      {"name": "Espresso", "price": 2900, "type": "coffee"},
+      {"name": "Té/Infusión", "price": 2500, "type": "tea"}
+    ]
+  },
+  "pairings": {
+    "appetizers": [
+      {"food": "Burrata", "drink": "Aperol Spritz", "reason": "Frescura italiana clásica"},
+      {"food": "Crudo di Salmone", "drink": "Prosecco", "reason": "Burbujas realzan el pescado crudo"},
+      {"food": "Assaggio di Salumi", "drink": "Negroni", "reason": "Amargor equilibra las grasas"}
+    ],
+    "mains": [
+      {"food": "Wagyu e Tartufo", "drink": "Degaz Granito Estate Cabernet", "reason": "Potencia para potencia, equilibrio perfecto"},
+      {"food": "Risotto ai Gamberoni", "drink": "Sauvignon Blanc Floresta", "reason": "Acidez complementa los mariscos"},
+      {"food": "Ossobuco", "drink": "Carmenere Presumido", "reason": "Taninos suaves con carne braseada"},
+      {"food": "Pasta Carbonara", "drink": "Pinot Noir", "reason": "Elegancia con cremosidad"}
+    ],
+    "desserts": [
+      {"food": "Tiramisù", "drink": "Affogato", "reason": "Café con café, tradición italiana"},
+      {"food": "Varietà di Dolci", "drink": "Late Harvest", "reason": "Dulzura balanceada"},
+      {"food": "Chocolate", "drink": "Porto", "reason": "Clásico maridaje"}
+    ]
+  },
+  "price_ranges": {
+    "budget": {"min": 0, "max": 15000, "description": "Opciones accesibles"},
+    "mid_range": {"min": 15001, "max": 30000, "description": "Gama media"},
+    "premium": {"min": 30001, "max": 60000, "description": "Selección premium"},
+    "luxury": {"min": 60001, "max": 999999, "description": "Experiencia de lujo"}
+  },
+  "dietary_preferences": {
+    "vegetarian": ["Burrata ai Pomodori", "Rigatoni Tricolore", "Sorrentini di Zucca"],
+    "seafood": ["Risotto ai Gamberoni", "Spaghetti Nero ai Frutti di Mare", "Crudo di Salmone"],
+    "meat_lovers": ["Wagyu e Tartufo", "Agnello Brasato", "Ossobuco alla Milanese"],
+    "light": ["Crudo di Salmone", "Ensaladas", "Carpaccio"]
+  }
+}
